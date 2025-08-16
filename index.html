@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MongoDB web clone</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/content-area.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+
+    <!-- -----------------------------------------------WRAPPER----------------------------------------------- -->
+    <div id="wrapper">
+
+        <!-- ----------------------------------------------------CONTAINER---------------------------------------------------- -->
+        <div id="container">
+
+
+            <!-- -------------------------------------------------------HEADER------------------------------------------------------- -->
+            <header>
+                <!-- ---------------------------------------------------HEADER NAVBAR 1--------------------------------------------------- -->
+                <nav id="header-navbar-1">
+                    <div id="header-navbar-1-leftbox">
+                        <a href="#" id="a-atlas-logo">Atlas</a>
+                        <div>
+                            <button id="org-btn"><i class="fas fa-server"></i><span>Prashant's Org</span><i class="fas fa-caret-down"></i></button>
+                            <button id="settings-btn"><i class="fas fa-cog"></i></button>
+                        </div>
+                        <button id="AM-btn"><span>Access Manager</span><i class="fas fa-caret-down"></i></button>
+                        <a href="#" id="a-billing">Billing</a>
+                    </div>
+                    <div id="header-navbar-1-rightbox">
+                        <a href="#" id="a-all-clustor">All Clusters</a>
+                        <div>
+                            <button id="get-help-btn"><span>Get Help</span><i class="fas fa-caret-down"></i></button>
+                            <button id="profile-btn"><span>Prashant</span><i class="fas fa-caret-down"></i></button>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- --------------------------------------------------------HEADER NAVBAR 2-------------------------------------------------------- -->
+                <nav id="header-navbar-2">
+                    <div id="header-navbar-2-leftbox">
+                        <div id="header-navbar-2-leftbox-div-1">
+                            <button id="project-btn"><span><i class="fas fa-folder"></i>Project 0</span><i class="fas fa-caret-down"></i></button>
+                            <button id="triple-dot-btn"><i class="fas fa-ellipsis-v"></i></button>
+                        </div>
+                        <div id="header-navbar-2-leftbox-div-2">
+                            <a href="#" id="a-data-services">Data Services</a>
+                            <a href="#" id="a-charts">Charts</a>
+                        </div>
+                    </div>
+
+
+                    <div id="header-navbar-2-rightbox">
+                        <a href="#"><i class="fas fa-user-plus"></i></a>
+                        <a href="#"><i class="fas fa-file-medical-alt"></i></a>
+                        <a href="#"><i class="fas fa-bell"></i></a>
+                    </div>
+                </nav>
+
+                <!-- ----------------------------------------------------------------------RESPONSE BOX---------------------------------------------------------------------- -->
+                <div id="response-box">
+
+                    <!-- --------------------------------------------AM BTN RESPONSE-------------------------------------------- -->
+                    <div id="AM-btn-result">
+                        <a href="#">Organization Access<span>Prashant's Org</span></a>
+                        <a href="#">Project Access<span>Project 0</span></a>
+                    </div>
+
+                    <!-- -------------------------------------------GET HELP BTN RESPONSE------------------------------------------- -->
+                    <div id="get-help-btn-response">
+                        <a href="#">View Docs</a>
+                        <a href="#">Create New Case</a>
+                        <a href="#">View Plan</a>
+                        <a href="#">Chat with Support</a>
+                    </div>
+
+                    <!-- --------------------------------------------ORG BTN RESPONSE-------------------------------------------- -->
+                    <div id="org-btn-response">
+                        <ul>
+                            <li id="org-btn-response-li-1">
+                                <div id="org-btn-response-srchbar-box">
+                                    <div id="org-btn-response-srch-icon-box">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <div id="org-btn-response-input-box">
+                                        <input type="text" placeholder="Search for an Organization..." >
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="org-btn-response-li-2">
+                                <a href="#">
+                                    Prashant's Org -2025-07-22<span>Atlas</span>
+                                </a>
+                            </li>
+                            <li id="line"></li>
+                            <li id="org-btn-response-li-4"><a href="#">View All Organization</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- --------------------------------------------TRIPLE DOT BTN RESPONSE-------------------------------------------- -->
+                    <div id="triple-dot-btn-response">
+                        <a href="#">Project Settings</a>
+                        <a href="#">Project Support</a>
+                        <a href="#">Integrations</a>
+                    </div>
+
+                    <!-- --------------------------------------------PROJECT BTN RESPONSE-------------------------------------------- -->
+                    <div id="project-btn-response">
+                        <ul>
+                            <li id="project-btn-response-li-1">
+                                <div id="project-btn-response-srchbar-box">
+                                    <div id="project-btn-response-srch-icon-box">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <div id="project-btn-response-input-box">
+                                        <input type="text" placeholder="Search for a Project..." >
+                                    </div>
+                                </div>
+                            </li>
+                            <li id="project-btn-response-li-2">
+                                <a href="#">
+                                    Project 0
+                                </a>
+                            </li>
+                            <li id="line-2"></li>
+                            <li id="project-btn-response-li-4">
+                                <a href="#">View All Projects</a>
+                                <a href="#"><i class="fas fa-plus"></i><span>New Project</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- --------------------------------------------PROFILE BTN RESPONSE-------------------------------------------- -->
+                    <div id="profile-btn-response">
+                        <div id="profile-btn-response-main-box">
+                            <div id="profile-btn-response-main-innerbox">
+                                <div id="profile-logo">
+                                    <img src="imgs/mongoDB.png" alt="mongoDB-logo">
+                                </div>
+                                <h3>Coding Weapon</h3>
+                                <p>prashantmistri348@gmail.com</p>
+                                <a href="#">Manage your MongoDB Account</a>
+                            </div>
+                        </div>
+
+                        <div id="profile-btn-response-secondary-box">
+                            <ul>
+                                <li><a href="#"><i class="fas fa-cloud-download-alt"></i><p>Atlas<span>cloud.mongodb.com</span></p></a></li>
+                                <li><a href="#"><i class="fas fa-book-open"></i><p>Documentation<span>docs.mongodb.com</span></p></a></li>
+                                <li><a href="#"><i class="fas fa-university"></i><p>University<span>learn.mongodb.com</span></p></a></li>
+                                <li><a id="forum-btn" href="#"><i class="fas fa-comments"></i><p>Forums<span>forums.mongodb.com</span></p><button id="forum-dropdown-btn"><i class="fas fa-caret-down"></i></button></a></li>
+                                <li id="forum-dropdown" class="profile-btn-response-secondary-box-dropdowns">
+                                    <div class="dropdown-line"></div>
+                                    <a href="#">Forum Preferences</a>
+                                    <div class="dropdown-line"></div>
+                                </li>
+                                <li><a href="#"><i class="fas fa-code"></i><p>Developer Center<span>developer.mongodb.com</span></p></a></li>
+                                <li><a id="support-btn" href="#"><i class="fas fa-headset"></i><p>Support<span>support.mongodb.com</span></p><button id="support-dropdown-btn"><i class="fas fa-caret-down"></i></button></a></li>
+                                <li id="support-dropdown" class="profile-btn-response-secondary-box-dropdowns">
+                                    <div class="dropdown-line"></div>
+                                    <a href="#">User Preferences</a>
+                                    <div class="dropdown-line"></div>
+                                </li>
+                                <li><a href="#"><i class="fas fa-gift"></i><p>Give us feedback</p></a></li>
+                            </ul>
+                        </div>
+
+                        <div id="profile-btn-response-line"></div>
+
+                        <div id="profile-btn-response-logout-box">
+                            <a href="#">Log out</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+            <!-- -------------------------------------------------SIDEBAR------------------------------------------------- -->
+            <nav id="sidebar">
+                <div id="sidebar-insertion-box">
+                    <hr>
+                    <div><i class="fas fa-database"></i></div>
+                    <hr>
+                    <div><i class="fas fa-wrench"></i></div>
+                    <hr>
+                    <div><i class="fas fa-lock"></i></div>
+                    <hr>
+                </div>
+                <ul id="sidebar-ul">
+                    <li>
+                        <a href="overview" id="overview-btn">Overview</a>
+                    </li>
+
+                    <li>
+                        <div><i class="fas fa-database"></i><span>DATABASE</span></div>
+                        <a href="clusters" id="clusters-btn">Clusters</a>
+                    </li>
+
+                    <li>
+                        <div><i class="fas fa-wrench"></i><span>SERVICES</span></div>
+                        <a href="#">Atlas Search</a>
+                        <a href="#">Stream Processing</a>
+                        <a href="#">Triggers</a>
+                        <a href="#">Migration</a>
+                        <a href="#">Data Federation</a>
+                    </li>
+
+                    <li>
+                        <div><i class="fas fa-lock"></i><span>SECURITY</span></div>
+                        <a href="#">Backup</a>
+                        <a href="#">Database Access</a>
+                        <a href="#">Network Access</a>
+                        <a href="#">Advanced</a>
+                    </li>
+
+                    <hr>
+
+                    <li>
+                        <button>New on Atlas</button>
+                    </li>
+                    <li>
+                        <button>Goto</button>
+                    </li>
+            
+                </ul>
+                <div id="sidebar-toggle-btn-box">
+                    <button id="sidebar-toggle-btn"><i class="fas fa-angle-left bold-angle-icon"></i></button>
+                </div>
+            </nav>
+
+            <section id="content-area">
+
+            </section>
+
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

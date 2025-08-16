@@ -1,0 +1,175 @@
+#sidebar {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+#sidebar ul {
+    list-style: none;
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 16px 0px;
+}
+
+#sidebar ul li {
+    width: 100%;
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+/* for all a tags in sidebar */
+#sidebar ul li a {
+    height: 32px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    /* background-color: blue; */
+    padding: 0px 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#sidebar ul li a:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+#sidebar ul li div {
+    height: 44px;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 16px;
+    font-weight: 600;
+    color: darkgreen;
+}
+
+/* #sidebar ul li:nth-child(1) {
+    background-color: blueviolet;
+}
+
+#sidebar ul li:nth-child(2) {
+    background-color: bisque;
+}
+
+#sidebar ul li:nth-child(3) {
+    background-color: cornflowerblue;
+}
+
+#sidebar ul li:nth-child(4) {
+    background-color: crimson;
+} */
+
+#sidebar ul hr {
+    margin-top: 20px;
+    opacity: 0.2;
+
+}
+
+#sidebar ul li button {
+    outline: none;
+    border: none;
+    height: 32px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    font-family: 'Poppins';
+}
+
+#sidebar ul li button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+
+#sidebar #sidebar-toggle-btn-box {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+#sidebar #sidebar-toggle-btn-box button{
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    position: relative;
+    left: 15px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(150, 150, 150, 0.8);
+    color: darkgreen;
+    font-size: 16px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.bold-angle-icon {
+        text-shadow: 
+        1px 0 0 currentColor,
+        -1px 0 0 currentColor,
+        0 1px 0 currentColor,
+        0 -1px 0 currentColor !important;
+}
+
+#sidebar #sidebar-toggle-btn-box button:hover {
+    background-color: rgb(230, 230, 230);
+
+}
+
+#sidebar #sidebar-toggle-btn-box button i {
+    /* height: 100%;
+    width: 100%; */
+    background-color: transparent;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%; */
+}
+
+#sidebar #sidebar-insertion-box {
+    display: none;
+    /* background-color: aqua; */
+    /* display: block; */
+    padding-top:16px;
+}
+
+#sidebar #sidebar-insertion-box div{
+    /* background-color: coral; */
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkgreen;
+    font-size: 12px;
+}   
+
+#sidebar #sidebar-insertion-box hr {
+    opacity: 0.2;
+}
+
+/* #sidebar #overview-btn::before {
+    content: "|";
+    position: relative;
+    left: -18px;
+    font-size: 20px;
+    color: #00A35C;
+}
+     */

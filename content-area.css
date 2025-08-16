@@ -1,0 +1,14 @@
+
+
+
+/* ------------------------------------CONTENT AREA SETUP------------------------------------ */
+
+#content-area {
+    grid-row: 2;
+    grid-column: 2;
+    /* background-color: powderblue; */
+    padding: 24px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}

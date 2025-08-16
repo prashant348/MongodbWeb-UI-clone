@@ -1,0 +1,140 @@
+#clusters-wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    /* color: white; */
+    font-family: 'Poppins';
+}
+
+#clusters-wrapper div:nth-child(1) {
+    height: 22px;
+    /* background-color: green; */
+    display: flex;
+    font-size: 13px;
+    color: #016BF8;
+    font-weight: 500;
+}
+
+#clusters-wrapper div:nth-child(1) a {
+    text-decoration: none;
+    color: #016BF8;
+}
+#clusters-wrapper div:nth-child(1) a:hover {
+    text-decoration: underline;
+}
+#clusters-wrapper h1 {
+    height: 45px;
+    /* background-color: aqua; */
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+
+/* --------------------------------------------CLUSTERS CREATE BOX SET UP-------------------------------------------- */
+
+#create-and-footer-box-container {
+    /* background-color: brown; */
+    height: calc(100% - 87px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#create-and-footer-box-container #clusters-create-box {
+    height: 400px;
+    /* background-color: #016BF8; */
+    padding: 19px 0 0;
+    border: 1px dotted rgb(210, 210, 210);
+    border-radius: 5px;
+    border-spacing: 2px;
+}
+#create-and-footer-box-container #clusters-create-box #clusters-create-box-wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: #00A35C; */
+    padding: 50px 284px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#create-and-footer-box-container #clusters-create-box #clusters-create-box-wrapper img {
+    height: 60px;
+    width: 60px;
+}
+
+#create-and-footer-box-container #clusters-create-box #clusters-create-box-wrapper div:nth-child(2) {
+    font-size: 31px;
+    margin-top: 20px;
+    color: #001E2B;
+}
+
+#create-and-footer-box-container #clusters-create-box #clusters-create-box-wrapper div:nth-child(3) {
+    font-size: 18px;
+    color: #001E2B;
+    margin-bottom: 20px;
+}
+
+#create-and-footer-box-container #clusters-create-box #clusters-create-box-wrapper a:nth-child(4) {
+    height: 48px;
+    width: 156px;
+    background-color: #00684A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+#create-and-footer-box-container #clusters-create-box #clusters-create-box-wrapper div:nth-child(5) {
+    font-size: 13px;
+    text-align: center;
+    color: #001E2B;
+    font-weight: 400;
+}
+
+#create-and-footer-box-container #clusters-create-box #clusters-create-box-wrapper a:nth-child(4) {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+#create-and-footer-box-container #clusters-create-box #clusters-create-box-wrapper a:nth-child(4):hover {
+    background-color: #00684be0;
+    box-shadow: 0px 0px 10px #00684A;
+}
+
+
+
+/* -------------------------------CLUSTERS PAGE FOOTER SETUP------------------------------- */
+#clusters-wrapper #footer-box {
+    height: 80px;
+    width: 100%;
+    /* background-color: chocolate; */
+    border-top: 1px solid rgb(230, 230, 230);
+    padding: 15px 0px;
+    color: #889397;
+
+}
+
+#clusters-wrapper #footer-box div:nth-child(1) {
+    font-size: 12px;
+    color: #889397;
+    font-weight: 400;
+    display: flex;
+    gap: 3px;
+}
+
+#clusters-wrapper #footer-box div:nth-child(1) span {
+    color: #00A35C;
+}
+
+#clusters-wrapper #footer-box div:nth-child(2) {
+    font-size: 12PX;
+    display: flex;
+    gap: 10px;
+}
