@@ -26,7 +26,7 @@ Through this, I explored:
 ## 🛠️ Tech Stack
 - **HTML5** → For semantic structure  
 - **CSS3** → For styling, responsive design, hover effects  
-- **JavaScript (Vanilla JS)** → For interactive elements  
+- **JavaScript** → For interactive elements  
 
 ---
 
@@ -40,3 +40,12 @@ Through this, I explored:
 ---
 
 ## 📂 Project Structure
+![Preview Screenshot](./folderStructure.png)
+
+
+
+---
+
+
+
+
