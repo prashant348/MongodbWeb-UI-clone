@@ -12,6 +12,7 @@ Through this, I explored:
 - Structuring layouts with **HTML5**
 - Styling with modern **CSS3** (Flexbox, Grid, Transitions)
 - Adding interactivity with **JavaScript**
+- Basic SPA (Single Page Application) Framework
 - Building a **responsive UI** similar to production-grade apps
 
 ---
@@ -43,8 +44,25 @@ Through this, I explored:
 ![Preview Screenshot](./folderStructure.png)
 
 
+---
+
+## NOTE:
+- In nav bar, only "Overview" and "Clusters" buttons are working.
+- This UI needs some IMPROVEMENTS.
 
 ---
+
+## 👨‍💻 Author
+**Prashant Mistri**
+- Threads: [codingweapon](https://www.threads.com/codingweapon)
+- Instagram: [codingweapon](https://www.instagram.com/codingweapon)
+- Youtube: [codingweapon](https://www.youtube.com/@realcodingweapon)
+- GitHub: [prashant348](https://www.github.com/prashant348)
+
+---
+
+### 🖤 Made with love by CodingWeapon
+
 
 
 
